@@ -1,0 +1,29 @@
+{
+  "name": "@s_module-a",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "「安忠琪」 <1695603363@qq.com>",
+  "homepage": "https://github.com/small-dots/ui-test#readme",
+  "license": "ISC",
+  "main": "lib/moduleA.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://123.57.62.140:4873/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/small-dots/ui-test.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/moduleA.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/small-dots/ui-test/issues"
+  }
+}
